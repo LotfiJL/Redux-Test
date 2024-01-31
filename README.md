@@ -10,3 +10,5 @@ Logger Middleware
 React Devtools : Debugging test
 
 Add Action payload ---
+
+mapStateToProps Role -- connecting your React component to the Redux store

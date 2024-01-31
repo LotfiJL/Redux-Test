@@ -13,7 +13,7 @@ function HooksIcecreamContainer() {
         Numnber of IceCream -Hookks Method- : {numberOfIcecream}
       </h1>
       <Button variant="warning" onClick={() => dispatch(buyIcecream())}>
-        Buy Cake
+        <h4>Buy IceCream</h4>
       </Button>
     </div>
   );
