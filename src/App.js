@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <ItemCoontainer cake />
-      <CakeContainer />
+      <CakeContainer IceCream />
       <HooksCakecontainer />
       -----------------
       <IceCreamContainer />
