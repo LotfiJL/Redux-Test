@@ -6,3 +6,5 @@ Redux - Hooks test
 Multiple Action handling
 
 Logger Middleware
+
+React Devtools : Debugging test

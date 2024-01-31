@@ -5,7 +5,9 @@ import { connect } from "react-redux";
 function IceCreamContainer(props) {
   return (
     <div>
-      <h1 className="bg-success">Number of cakes : {props.numberOfIcecream}</h1>
+      <h1 className="bg-success">
+        Number of Icecream : {props.numberOfIcecream}
+      </h1>
       <Button variant="success" onClick={props.buyIcecream}>
         <b>Buy Icecream</b>
       </Button>
