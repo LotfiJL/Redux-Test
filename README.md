@@ -12,3 +12,5 @@ React Devtools : Debugging test
 Add Action payload ---
 
 mapStateToProps Role -- connecting your React component to the Redux store
+
+mapDispatchToProps Role -- Allowing React compnent to dipatch an Action to the store
