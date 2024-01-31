@@ -6,7 +6,7 @@ function CakeContainer(props) {
   return (
     <div>
       <h1 className="bg-success">Number of cakes : {props.numberOfCakes}</h1>
-      <Button variant="info" onClick={props.buycake}>
+      <Button variant="success" onClick={props.buycake}>
         <b>Buy Cake</b>
       </Button>
     </div>
@@ -14,7 +14,7 @@ function CakeContainer(props) {
 }
 const mapStateToProps = (state) => {
   return {
-    numberOfCakes: state.numberOfcakes,
+    numberOfCakes: state.cake.numberOfcakes,
   };
 };
 
