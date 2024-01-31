@@ -8,3 +8,5 @@ Multiple Action handling
 Logger Middleware
 
 React Devtools : Debugging test
+
+Add Action payload ---
